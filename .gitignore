@@ -1,0 +1,59 @@
+# API Keys and secrets
+.env
+*.env
+.env.*
+config/secrets.yaml
+config/secrets.json
+
+# OpenClaw config files with tokens or credentials
+openclaw/config/credentials.*
+openclaw/config/tokens.*
+openclaw/.openclaw_token
+*.token
+*.key
+
+# Sensitive pentest artifacts
+results/raw/
+loot/
+*.loot
+sessions/
+*.session
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node (if applicable)
+node_modules/
+npm-debug.log
+
+# OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
