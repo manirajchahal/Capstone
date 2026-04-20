@@ -157,7 +157,7 @@ In the end-to-end test against Metasploitable 2, the agent completed 4 steps and
 | Step | Action | Outcome |
 |---|---|---|
 | 1 | Nmap scan (192.168.8.230) | Identified 23 open ports; flagged vsftpd 2.3.4, Samba 3.x, UnrealIRCd |
-| 2 | Metasploit — vsftpd 2.3.4 backdoor | Exploit failed (service patched or non-responsive) |
+| 2 | Metasploit — vsftpd 2.3.4 backdoor | Shell obtained as `root` |
 | 3 | Metasploit — Samba usermap_script | Shell obtained as `root` |
 | 4 | Post-exploitation — whoami + id | Confirmed `uid=0(root)` |
 
