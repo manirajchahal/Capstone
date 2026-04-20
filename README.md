@@ -192,6 +192,5 @@ This is a proof-of-concept, not a production tool.
 - The agent has no memory between sessions; each run starts from scratch.
 - The 5-step cap is hardcoded in the skill file. More complex targets would require a longer chain or recursive planning.
 - Tool selection is LLM-driven, which means it can make suboptimal choices if tool output is ambiguous.
-- No GUI. All interaction is through the OpenClaw CLI or API.
 - Tested only against Metasploitable 2. Results on other targets will vary.
 - The Anthropic API introduces latency between steps (typically 3–8 seconds per reasoning cycle).
